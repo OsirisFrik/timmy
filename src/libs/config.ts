@@ -5,5 +5,6 @@ export default {
   port: env.PORT || 3000,
   cookieSecret: env.COOKIE_SECRET || 'SAKHFSDKJGHADSKJfsfsfsf23faq',
   discordToken: env.DISCORD_TOKEN,
-  ngrokToken: env.NGROK_TOKEN
+  ngrokToken: env.NGROK_TOKEN || '',
+  discordId: env.DISCORD_ID || ''
 }
