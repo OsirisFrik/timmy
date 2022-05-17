@@ -6,7 +6,11 @@
   "author": "osirisfrik",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "tsc -p ."
+  },
+  "_moduleAliases": {
+    "@": "dist"
   },
   "dependencies": {
     "@discordjs/builders": "^0.13.0",
